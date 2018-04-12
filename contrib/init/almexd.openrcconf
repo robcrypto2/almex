@@ -1,0 +1,26 @@
+# /etc/conf.d/almexd: config file for /etc/init.d/almexd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/almex/almex.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/almexd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/almexd.pid"
+
+# Where to write almexd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/almexd"
+
+# User and group to own almexd process
+#BITCOIND_USER="almex"
+#BITCOIND_GROUP="almex"
+
+# Path to almexd executable
+#BITCOIND_BIN="/usr/bin/almexd"
+
+# Nice value to run almexd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

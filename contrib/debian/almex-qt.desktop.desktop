@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ALMEX
+Comment=ALMEX P2P Cryptocurrency
+Exec=almex-qt %u
+Terminal=false
+Type=Application
+Icon=almex128
+MimeType=x-scheme-handler/almex;
+Categories=Office;Finance;
+Name[en_US]=almex-qt.desktop
